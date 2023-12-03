@@ -1,0 +1,98 @@
+body{
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+/* Galeria  Descubre */
+.card-img-top{
+  border-radius: 25px;
+  padding: 20px;
+  height: 300px;
+}
+
+.card{
+  border-radius: 30px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  transition: all 0.3s;
+}
+
+.card-body{
+  padding: 30px; 
+}
+
+.btn{
+  border-radius:50px ;
+  width:120px ;
+}
+
+.btn-primary:hover{
+  background-color: #0B3CD7;
+}
+
+/* Deshabilitar el cambio de tamaño del textarea */
+.resize-none {
+  resize: none;
+}
+
+/* Animacion img */
+.about .about-img {
+  position: relative;
+  transition: 0.5s;
+}
+  
+.about .about-img img {
+  max-width: 100%;
+  border: 4px solid rgba(255, 255, 255, 0.2);
+  position: relative;
+}
+
+.about .about-img::before {
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  width: 60px;
+  height: 60px;
+  z-index: 1;
+  content: "";
+  border-left: 5px solid #cda45e;
+  border-top: 5px solid #cda45e;
+  transition: 0.5s;
+}
+  
+.about .about-img::after {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  width: 60px;
+  height: 60px;
+  z-index: 2;
+  content: "";
+  border-right: 5px solid #cda45e;
+  border-bottom: 5px solid #cda45e;
+  transition: 0.5s;
+}
+
+.about .about-img:hover {
+  transform: scale(1.03);
+}
+  
+.about .about-img:hover::before {
+  left: 10px;
+  top: 10px;
+}
+  
+.about .about-img:hover::after {
+  right: 10px;
+  bottom: 10px;
+}
+  
+.about .content {
+  position: relative;
+}
+
+.inverted{
+  filter: invert(90%);
+}
+
+
+  

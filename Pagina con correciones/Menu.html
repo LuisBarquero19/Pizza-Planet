@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú</title>
+    <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+  </head>
+  <body>
+    <header>
+      <!-- Navbar  -->
+      <nav class="navbar navbar-expand-lg navbar-dark p-md-0" style="background:#191919;">
+        <div class="container">
+          <a class="navbar-brand pt-2" href="index.html">
+            <h1 class="pagina fs-3">PIZZA <span class="titulo">PLANET</span></h1>
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <!-- Items de navegacion  -->
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <div class="mx-auto"></div>
+            <ul class="navbar-nav fs-5">
+              <li class="nav-item">
+                <a class="nav-link text-white" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="Nosotros.html">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="Menu.html">Menú</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="Eventos.html">Eventos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="Contacto.html">Contacto</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="Equipo.html">Creadores</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+       
+    <!-- Banner -->
+    <div class="banner-menu">
+      <div class="banner-content">
+         <h1>Pizza planet</h1>
+         <h2>Descrubre nuestra carta</h2>
+         <p>Una pizzeria fuera de este mundo.</p>
+         <a href="Contacto.html" class="button">Haz un pedido
+           <i class="bi bi-cart-dash"></i>
+         <a>
+         <a href="" class="button" data-bs-toggle="modal" data-bs-target="#sucursalesModal">Nuestras tiendas
+           <i class="bi bi-shop"></i>
+         </a>
+      </div>       
+   </div>
+ 
+    <main>
+    </li><!-- navegacion de menú -->
+    <div class="container">
+      <div class="nav-menu">
+        <div class="nav-content">
+          <h3>Navega por nuestro menú</h3>
+          <p class="text-center">OUR MENU. REAL ITALIAN FLAVOR. REAL FAMILY RECIPES</p>
+          <hr class="border border-danger border-2 opacity-50">
+          <ul>
+            <li class="nav-item-menu">
+              <a href="#NUESTRASPIZZAS" class="fs-6">Nuestras Pizzas<img class="py-2" src="./img/pizza.png" alt="icono-pizza"></a>
+              <a href="#OFERTAS" class="fs-6">Ofertas<img class="py-2" src="./img/descuento.png" alt="icono-oferta"></a>
+              <a href="#ENTRADAS" class="fs-6">Entradas<img class="py-2" src="./img/ensalada.png" alt="icono-ensalada"></a>
+              <a href="#BEBIDAS" class="fs-6">Bebidas<img class="py-2" src="./img/beber (1).png" alt="icono-bebida"></a>
+          </li>            
+          </ul>
+        </div>
+      </div>
+    </div>
+
+      <!-- Sección Promociones -->
+      <section id="OFERTAS" class="promociones py-3">
+        <div class="container text-center text-white py-3">
+          <h3 class="fs-2 text-decoration-underline">PROMOCION ITALIANO</h3>
+          <p class="text-white">Oferta valida de lunes a viernes al mediodía (exepto dias festivos).</p>
+        </div>
+ 
+        <div class="container">   
+          <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 py-3">
+            <!-- Pizza1 -->
+            <div class="col"> 
+              <div class="card" style="height: 525px;">
+                <img src="img/PP-sabor_bianca-1.jpg" alt="pizza_Bianca" class="card-img-top">
+                <div class="card-body text-center">
+                  <h3 class="card-title">BIANCA</h3>
+                  <hr>
+                  <p class="card-text">Salsa blanca de quesos, salvia, orégano, tocino, pimienta y ajo.</p>
+                  <a href="#" class="btn btn-sm btn-dark" data-bs-toggle="modal" data-bs-target="#ordenaYaModal">Ordenar</a>
+                </div>
+              </div>
+            </div>
+ 
+            <!-- Pizza2 -->
+            <div class="col">
+              <div class="card" style="height: 525px;">
+                <img src="img/PP-sabor_pesto-1.jpg" alt="" class="card-img-top">
+                <div class="card-body text-center">
+                  <h3 class="text-title">AL PESTO</h3>
+                  <hr>
+                  <p>Pesto, jitomates cherry, albahaca, mozarella y aceite de olivo.</p>
+                  <a href="#" class="btn btn-dark btn-sm" data-bs-toggle="modal" data-bs-target="#ordenaYaModal">Ordenar</a>
+                </div>
+              </div>
+            </div>
+ 
+            <!-- Pizza3 -->
+            <div class="col">
+              <div class="card" style="height: 525px;">
+                <img src="img/PP-sabor_capricciosa-1.jpg" alt="pizza_capricciosa" class="card-img-top">
+                <div class="card-body text-center">
+                  <h3 class="card-title">CAPRICCIOSA</h3>
+                  <hr>
+                  <P>Mozarella, alcachofas, aceitunas negras y setas.</P>
+                  <br>
+                  <a href="#" class="btn btn-sm btn-dark" data-bs-toggle="modal" data-bs-target="#ordenaYaModal">Ordenar</a>
+                </div>
+              </div>
+            </div>        
+          </div>   
+        </div>
+      </section> <!-- Fin sección promociones -->
+     
+      <!-- Sección Nuestras Pizzas -->
+      <section id="NUESTRASPIZZAS" >
+        <div class="container text-center py-3">
+          <h3 class=" fs-2 text-decoration-underline">NUESTRAS PIZZAS</h3>
+        </div>
+ 
+        <div class="container">
+          <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 py-3">
+            <!-- Pizza1 -->
+            <div class="col">
+              <div class="card" style="height: 500px;">
+                <img src="img/mariscos.jpg" alt="mariscos" class="card-img-top">
+                <div class="card-body text-center">
+                  <h3 class="card-title">MARISCOS</h3>
+                  <p class="card-text">Anchoas, Ostiones, Camarones, Champiñones y Cebolla</p>
+                  <a href="" class="btn btn-sm btn-dark" data-bs-toggle="modal" data-bs-target="#ordenaYaModal">Ordenar</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Pizza2 -->
+            <div class="col">
+              <div class="card" style="height: 500px;">
+                <img src="img/4-quesos.jpg" alt="cuatro_quesos" class="card-img-top">
+                <div class="card-body text-center">
+                  <h3 class="card-title">4 QUESOS</h3>
+                  <p class="card-text">Nuestro Queso Original, de Cabra, Parmesano y Mozzarela</p>
+                  <a href="" class="btn btn-sm btn-dark" data-bs-toggle="modal" data-bs-target="#ordenaYaModal">Ordenar</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Pizza3 -->
+            <div class="col">
+              <div class="card" style="height: 500px;">
+                <img src="img/suprema.jpg" alt="suprema" class="card-img-top">
+                  <div class="card-body text-center">
+                    <h3 class="card-title">SUPREMA</h3>
+                    <p class="card-text">Salami, Pepperoni, Lomo Canadiense, Jamón y Tocino.</p>
+                    <a href="" class="btn btn-sm btn-dark" data-bs-toggle="modal" data-bs-target="#ordenaYaModal">Ordenar</a>
+                  </div>
+              </div>
+            </div>
+ 
+            <!-- Pizza 4 -->
+            <div class="col">
+              <div class="card" style="height: 500px;">
+                <img src="img/del-campo.jpg" alt="del_campo" class="card-img-top">
+                <div class="card-body text-center">
+                  <h3 class="card-title">DEL CAMPO</h3>
+                  <p class="card-text">Champiñones, Queso de Cabra y Cebollín.</p>
+                  <a href="#" class="btn btn-sm btn-dark" data-bs-toggle="modal" data-bs-target="#ordenaYaModal">Ordenar</a>
+                </div>
+              </div>
+            </div>
+ 
+            <!-- Pizza 5 -->
+            <div class="col">
+              <div class="card" style="height: 500px;">
+                <img src="img/americana-.jpg" alt="americana" class="card-img-top">
+                <div class="card-body text-center">
+                  <h3 class="card-title">AMERICANA</h3>
+                  <p class="card-text">Lomo Canadiense, Champiñón y Tocino.</p>
+                  <a href="#" class="btn btn-sm btn-dark" data-bs-toggle="modal" data-bs-target="#ordenaYaModal">Ordenar</a>
+                </div>
+              </div>
+            </div>
+ 
+            <!-- Pizza6 -->
+            <div class="col">
+              <div class="card" style="height: 500px;">
+                <img src="img/pepperoni.jpg" alt="suprema" class="card-img-top">
+                <div class="card-body text-center">
+                  <h3 class="card-title">PEPERONI</h3>
+                  <p>Pepperoni con queso</p>
+                  <a href="" class="btn btn-sm btn-dark" data-bs-toggle="modal" data-bs-target="#ordenaYaModal">Ordenar</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section> <!-- Fin sección nuestras pizzas -->
+
+      <hr class="border border-danger border-2 opacity-50">
+
+      <!-- Sección Especialidades -->
+      <section id="ESPECIALIDADES" class="py-3">
+        <div class="container text-center">
+          <h3 class="fs-2 text-decoration-underline">ESPECIALIDADES</h3>
+        </div>
+
+        <div class="container">
+          <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 py-3">
+            <!-- Pizza1 -->
+            <div class="col">
+              <div class="card text-center" style="height: 500px;">
+                <img src="img/especial-pepperoni.jpg" alt="especial_pepperoni" class="card-img-top">
+                <div class="card-body">
+                  <h3 class="card-title">ESP. PEPPERONI</h3>
+                  <p class="card-text">Pepperoni y Champiñones</p>
+                  <br>
+                  <a href="#" class="btn btn-sm btn-dark" data-bs-toggle="modal" data-bs-target="#ordenaYaModal">Ordenar</a>
+                </div>
+              </div>
+            </div>
+            <!-- Pizza2 -->
+            <div class="col">
+              <div class="card" style="height: 500px;">
+                <img src="img/vegetariana.jpg" alt="especial_pepperoni" class="card-img-top">
+                <div class="card-body text-center">
+                  <h3 class="card-title">ESP. VEGETARIANA</h3>
+                  <p class="card-text">Aceitunas, Champiñones, Pimiento, Cebolla y Jalapeños.</p>
+                  <a href="" class="btn btn-sm btn-dark" data-bs-toggle="modal" data-bs-target="#ordenaYaModal">Ordenar</a>
+                </div>
+              </div>
+            </div>
+            <!-- Pizza3 -->
+            <div class="col">
+              <div class="card" style="height: 500px;">
+                <img src="img/esp-italiana.jpg" alt="especial_italiana" class="card-img-top">
+                <div class="card-body text-center">
+                  <h3 class="card-title">ESP. ITALIANA</h3>
+                  <p class="card-text">Pepperoni, Salchicha Italiana, Champiñones, Pimiento  y Cebolla.</p>
+                  <a href="" class="btn btn-sm btn-dark" data-bs-toggle="modal" data-bs-target="#ordenaYaModal">Ordenar</a>
+                </div>
+              </div>
+            </div>
+          </div>  
+        </div>
+
+        <!-- Lista ingredientes extras -->
+        <div class="container">
+          <div class="row pt-4">
+            <div class="col-sm-12 col-md-6 col-lg-6">
+              <h3>INGREDIENTES EXTRAS</h3>
+              <ul class="list-group ">
+                <li class="list-group-item">
+                  <input class="form-check-input me-1" type="radio" name="listGroupRadio" value="" id="firstRadio" checked>
+                  <label class="form-check-label" for="firstRadio">VEGETALES</label>
+                </li>
+                <li class="list-group-item">
+                  <input class="form-check-input me-1" type="radio" name="listGroupRadio" value="" id="secondRadio">
+                  <label class="form-check-label" for="secondRadio">CARNES</label>
+                </li>
+                <li class="list-group-item">
+                  <input class="form-check-input me-1" type="radio" name="listGroupRadio" value="" id="thirdRadio">
+                  <label class="form-check-label" for="thirdRadio">MARISCOS</label>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section> <!-- Fin sección especialidades -->
+
+      <!-- Sección entradas -->
+      <section id="ENTRADAS" class="bg-entradas py-3">
+        <div class="container text-center py-2">
+          <h3 class="text-white fs-2 text-decoration-underline">ENTRADAS</h3>
+        </div>
+
+        <div class="container">
+          <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4 py-3">
+            <!-- Entrada1 -->
+            <div class="col">
+              <div class="card" style="height: 475px;">
+                <img src="img/pan-de-ajo.jpg" alt="pan-de-ajo" class="card-img-top">
+                <div class="card-body text-center">
+                  <h3>Pan con Ajo</h3>
+                  <p>$4.95 (8 Unidades)</p>
+                  <a href="#" class="btn btn-dark btn-sm" data-bs-toggle="modal" data-bs-target="#ordenaYaModal">Ordenar</a>
+                </div>
+              </div>
+            </div>
+            <!-- Entrada2 -->
+            <div class="col">
+              <div class="card" style="height: 475px;">
+                <img src="img/cheesesticks.jpg" alt="cheesesticks" class="card-img-top">
+                <div class="card-body text-center">
+                  <h3>Cheesesticks</h3>
+                  <p>$4.95 (8 Unidades)</p>
+                  <a href="" class="btn btn-dark btn-sm" data-bs-toggle="modal" data-bs-target="#ordenaYaModal">Ordenar</a>
+                </div>
+              </div>
+            </div>
+            <!-- Entrada3 -->
+            <div class="col">
+              <div class="card" style="height: 475px;">
+                <img src="img/alitas.jpg" alt="cheesesticks" class="card-img-top">
+                <div class="card-body text-center">
+                  <h3>Alitas Picantes</h3>
+                  <p>$5.95 (6 Unidades)</p>
+                  <a href="" class="btn btn-dark btn-sm" data-bs-toggle="modal" data-bs-target="#ordenaYaModal">Ordenar</a>
+                </div>
+              </div>
+            </div>  
+            <!-- Entrada4 -->
+            <div class="col">
+              <div class="card" style="height: 475px;">
+                <img src="img/Nuditos.webp" alt="nuditos" class="card-img-top">
+                <div class="card-body text-center">
+                  <h3>Nudito con Ajo</h3>
+                  <p>$4.95 (8 Unidades)</p>
+                  <a href="" class="btn btn-dark btn-sm" data-bs-toggle="modal" data-bs-target="#ordenaYaModal">Ordenar</a>
+                </div>
+              </div>
+            </div>  
+          </div>
+        </div> 
+      </section> <!-- Fin sección entradas -->
+ 
+      <!-- Sección bebidas -->
+      <section id="BEBIDAS">
+        <div class="container py-3">
+          <h3 class="fs-2 mb-3 text-decoration-underline text-center">BEBIDAS</h3>
+          <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 mb-5">
+            <!-- bebida1 -->
+            <div class="col">
+              <div class="card" style="height: 475px;">
+                <img src="img/bebida-naranja.png" alt="bebida-naranja" class="card-img-top">
+                <div class="card-body text-center">
+                  <h4 >Jugo Naranja</h4>
+                  <p>$2.99</p>
+                  <a href="#" class="btn btn-dark btn-sm" data-bs-toggle="modal" data-bs-target="#ordenaYaModal">Ordenar</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- bebida2-->
+            <div class="col">
+              <div class="card" style="height: 475px;">
+                <img src="img/te-lipton-limon.jpg" alt="te-lipton-limon" class="card-img-top">
+                <div class="card-body text-center">
+                  <h4>Te limon (500ml)</h4>
+                  <p>$2.50</p>
+                  <a href="" class="btn btn-dark btn-sm" data-bs-toggle="modal" data-bs-target="#ordenaYaModal">Ordenar</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- bebida3 -->
+            <div class="col">
+              <div class="card" style="height: 475px;">
+                <img src="img/te-lipton-durazno.jpg" alt="te-lipton-durazno" class="card-img-top">
+                <div class="card-body text-center">
+                  <h3>Te durazno (500ml)</h3>
+                  <p>$2.50</p>
+                  <a href="" class="btn btn-dark btn-sm" data-bs-toggle="modal" data-bs-target="#ordenaYaModal">Ordenar</a>
+                </div>
+              </div>
+            </div>         
+          
+            <!-- bebida4 -->
+            <div class="col">
+              <div class="card" style="height: 475px;">
+                <img src="img/coca-cola.png" alt="bebida-coca-cola" class="card-img-top">
+                <div class="card-body text-center">
+                  <h4 >Coca-Cola</h4>
+                  <p>$2.25</p>
+                  <a href="#" class="btn btn-dark btn-sm" data-bs-toggle="modal" data-bs-target="#ordenaYaModal">Ordenar</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- bebida5-->
+            <div class="col">
+              <div class="card" style="height: 475px;">
+                <img src="img/bebida-pepsi.jpg" alt="bebida-pepsi" class="card-img-top">
+                <div class="card-body text-center">
+                  <h4>Pepsi</h4>
+                  <p>$1.99</p>
+                  <a href="" class="btn btn-dark btn-sm" data-bs-toggle="modal" data-bs-target="#ordenaYaModal">Ordenar</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- bebida6 -->
+            <div class="col">
+              <div class="card" style="height: 475px;">
+                <img src="img/bebida-fanta.jpg" alt="bebida-fanta" class="card-img-top">
+                <div class="card-body text-center">
+                  <h3>Fanta</h3>
+                  <p>$1.99</p>
+                  <a href="" class="btn btn-dark btn-sm" data-bs-toggle="modal" data-bs-target="#ordenaYaModal">Ordenar</a>
+                </div>
+            </div>
+          </div>         
+        </div>
+      </section> <!-- Fin sección bebidas -->
+    </main>
+
+    <!-- Pie de página -->
+    <footer id="footer" style="background:#131313;">
+      <div class="footer-top p-5">
+        <div class="container">
+          <div class="row g-5">
+            <div class="text-white col-lg-4 col-md-6 col-sm-12 d-flex justify-content-start align-items-center">
+              <img src="img/logo.png" alt="Logo" width="300" class="inverted w-sm-75 w-md-100">
+            </div>
+
+            <div class="text-white col-lg-4 col-md-6 col-sm-12">
+              <div class="footer-info">
+                <h3>Pizza Planet</h3>
+                <p>
+                  Bambu City Center <br>
+                  Bulevar Del Hipodromo, San Salvador<br><br>
+                  <strong>Tel:</strong> +503 4256-7890<br>
+                  <strong>Email:</strong> pizzaplanet@outlook.com<br>
+                </p>
+                <div>
+                  <a href="https://www.facebook.com/PizzaPlanetLP/?locale=es_LA" target="_blank"><i class="fab fa-facebook m-2 text-white"></i></a>
+                  <a href="http://www.twitter.com" target="_blank"><i class="fab fa-twitter m-2 text-white"></i></a>
+                  <a href="https://www.instagram.com/pizzaplanetofficial/" target="_blank"><i class="fab fa-instagram m-2 text-white"></i></a>
+                  <a href="https://www.youtube.com/@Pizza_planet_chanel" target="_blank"><i class="fab fa-youtube m-2 text-white"></i></a>
+                </div>
+              </div>
+            </div>
+  
+            <div class="text-white col-lg-4 col-md-6 col-sm-12">
+              <h4>Enlaces útiles</h4>
+              <ul class="list-unstyled">
+                <li> <a href="index.html">Home</a> </li>
+                <li> <a href="Nosotros.html">Nosotros</a> </li>
+                <li> <a href="Menu.html">Menú</a> </li>
+                <li> <a href="Eventos.html">Eventos</a> </li>
+                <li> <a href="Contacto.html">Contacto</a> </li>
+                <li> <a href="Equipo.html">Creadores</a> </li>
+                <li> <a href="Politicas de privacidad.html">Politicas de privacidad</a> </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- MODAL BTN ORDENAR (Ventana que aparece al dar clic en cierto botón) -->
+    <div class="modal fade" id="ordenaYaModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">¡Gracias por tu preferencia!</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            Tus productos llegarán pronto a la puerta de tu casa
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Ok</button>
+          </div>
+        </div>
+      </div>
+    </div> <!-- FIN MODAL -->
+
+    <!-- MODAL BTN Nuestras tiendas (Ventana que aparece al dar clic en cierto botón) -->
+    <div class="modal fade" id="sucursalesModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Pizza Planet</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            De momento contamos con una única sucursal en Bambu City Center. Pero próximamente estaremos en Santa Ana y San Miguel llevándote la mejor pizza del planeta!
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Ok</button>
+          </div>
+        </div>
+      </div>
+    </div> <!-- FIN MODAL -->
+    
+    <script src="https://kit.fontawesome.com/189164335c.js" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

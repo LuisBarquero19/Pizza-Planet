@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>¡Contáctanos!</title>
+    <link rel="icon" href="assets/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link href="css/animate.min.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <!-- Navbar  -->
+      <nav
+        class="navbar navbar-expand-lg navbar-dark p-md-0"
+        style="background: #191919"
+      >
+        <div class="container">
+          <a class="navbar-brand pt-2" href="index.html">
+            <h1 class="pagina fs-3">
+              PIZZA <span class="titulo">PLANET</span>
+            </h1>
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <!-- Items de navegación  -->
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <div class="mx-auto"></div>
+            <ul class="navbar-nav fs-5">
+              <li class="nav-item">
+                <a class="nav-link text-white" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="Nosotros.html">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="Menu.html">Menú</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="Eventos.html">Eventos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="Contacto.html">Contacto</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="Equipo.html">Creadores</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Formulario de contacto -->
+      <section id="contacto">
+        <div class="container-fluid px-1 py-4 mx-auto border-top border-black">
+          <div class="row d-flex justify-content-center">
+            <div class="col-xl-7 col-lg-8 col-md-9 col-11 text-center">
+              <!-- <div class="col-xl-7 col-lg-8 col-md-9 col-11 text-center"> -->
+              <h3 class="text-center mb-4">¡Reserva ya!</h3>
+              <form id="contactForm" class="needs-validation" novalidate>
+                <div class="row mb-4">
+                  <h6 class="text-secondary">Tus datos personales</h6>
+                  <div class="col">
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="nombre"
+                      placeholder="Nombre"
+                      required
+                    />
+                  </div>
+                  <div class="col">
+                    <input
+                      type="tel"
+                      class="form-control"
+                      id="telefono"
+                      placeholder="Número de teléfono"
+                      required
+                    />
+                  </div>
+                  <div class="col">
+                    <input
+                      type="email"
+                      class="form-control"
+                      id="correo"
+                      placeholder="Correo electrónico"
+                      required
+                    />
+                  </div>
+                </div>
+
+                <div class="row mb-4">
+                  <h6 class="text-secondary">Datos del evento</h6>
+                  <div class="col">
+                    <input
+                      type="number"
+                      class="form-control"
+                      id="cantidadPersonas"
+                      placeholder="Cantidad de personas"
+                      required
+                    />
+                  </div>
+                  <div class="col">
+                    <input
+                      type="date"
+                      class="form-control"
+                      id="diaEvento"
+                      placeholder="Día del evento"
+                      required
+                    />
+                  </div>
+                  <div class="col form-group">
+                    <select id="inputHorario" class="form-select" required>
+                      <option>Por la mañana</option>
+                      <option>Por la tarde</option>
+                      <option>Por la noche</option>
+                    </select>
+                  </div>
+                </div>
+
+                <div class="row mb-4">
+                  <h6 class="text-secondary">Detalles del evento</h6>
+                  <textarea
+                    class="form-control resize-none"
+                    rows="3"
+                    id="detallesEvento"
+                    required
+                  ></textarea>
+                </div>
+                <button type="submit" class="btn btn-dark">Enviar</button>
+                <!-- <a data-bs-toggle="modal" data-bs-target="#sucursalesModal">Enviar</a> -->
+              </form>
+            </div>
+          </div>
+        </div>
+      </section> <!-- Fin de sección de contacto -->
+
+      <!-- Mapa -->
+      <section style="background: rgba(19, 19, 19, 0.8);" class="py-3">
+        <div class="container">
+          <div class="text-center mb-4 text-white">
+            <h3>Ubicación</h3>
+            <p>Puedes ubicar nuestra sucursal desde el siguiente mapa, recuerda buscarnos como Pizza Planet.</p>
+          </div>
+          <div class="mapouter mb-4">
+            <div class="gmap_canvas">
+              <iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=900&amp;height=600&amp;hl=en&amp;q=Bambu city center&amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+              <a href="https://connectionsgame.org/">Connections Unlimited</a>
+            </div>
+            <style>.mapouter{position:relative;text-align:right;width:100%;height:600px;}.gmap_canvas {overflow:hidden;background:none!important;width:100%;height:600px;}.gmap_iframe {height:600px!important;}</style>
+          </div>
+        </div>
+      </section> <!-- Fin mapa -->
+    </main>
+    
+    <!-- Pie de página -->
+    <footer id="footer" style="background:#131313;">
+      <div class="footer-top p-5">
+        <div class="container">
+          <div class="row g-5">
+            <div class="text-white col-lg-4 col-md-6 col-sm-12 d-flex justify-content-start align-items-center">
+              <img src="img/logo.png" alt="Logo" width="300" class="inverted w-sm-75 w-md-100">
+            </div>
+
+            <div class="text-white col-lg-4 col-md-6 col-sm-12">
+              <div class="footer-info">
+                <h3>Pizza Planet</h3>
+                <p>
+                  Bambu City Center <br>
+                  Bulevar Del Hipodromo, San Salvador<br><br>
+                  <strong>Tel:</strong> +503 4256-7890<br>
+                  <strong>Email:</strong> pizzaplanet@outlook.com<br>
+                </p>
+                <div>
+                  <a href="https://www.facebook.com/PizzaPlanetLP/?locale=es_LA" target="_blank"><i class="fab fa-facebook m-2 text-white"></i></a>
+                  <a href="http://www.twitter.com" target="_blank"><i class="fab fa-twitter m-2 text-white"></i></a>
+                  <a href="https://www.instagram.com/pizzaplanetofficial/" target="_blank"><i class="fab fa-instagram m-2 text-white"></i></a>
+                  <a href="https://www.youtube.com/@Pizza_planet_chanel" target="_blank"><i class="fab fa-youtube m-2 text-white"></i></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="text-white col-lg-4 col-md-6 col-sm-12">
+              <h4>Enlaces útiles</h4>
+              <ul class="list-unstyled">
+                <li> <a href="index.html">Home</a> </li>
+                <li> <a href="Nosotros.html">Nosotros</a> </li>
+                <li> <a href="Menu.html">Menú</a> </li>
+                <li> <a href="Eventos.html">Eventos</a> </li>
+                <li> <a href="Contacto.html">Contacto</a> </li>
+                <li> <a href="Equipo.html">Creadores</a> </li>
+                <li> <a href="Politicas de privacidad.html">Politicas de privacidad</a> </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- MODAL BTN Gontacto (Ventana que aparece al dar clic en cierto botón) -->
+    <div class="modal fade" id="contactoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Agradecemos su confianza</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            Nos pondremos en contacto con usted lo más antes posible a través de los medios brindados. ¡Muchas gracias!
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Ok</button>
+          </div>
+        </div>
+      </div>
+    </div> <!-- FIN MODAL -->
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/189164335c.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="js/validation.js"></script>
+    <script>
+      $(document).ready(function(){
+        $('#contactForm').submit(function(event){
+          event.preventDefault(); // Evita que el formulario se envíe normalmente
+
+          // Validar todos los campos del formulario
+          if ($('#nombre').val().trim() !== '' && 
+              $('#telefono').val().trim() !== '' && 
+              $('#correo').val().trim() !== '' &&
+              $('#cantidadPersonas').val().trim() !== '' &&
+              $('#diaEvento').val().trim() !== '' &&
+              $('#detallesEvento').val().trim() !== '') {
+            // Mostrar el modal si el formulario es válido
+            $('#contactoModal').modal('show');
+          }
+        });
+      });
+    </script>
+  </body>
+</html>
